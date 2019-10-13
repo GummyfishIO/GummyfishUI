@@ -31,7 +31,12 @@
 </template>
 
 <script>
+import HexTile from '@/components/HexTile'
+
 export default {
+  components: {
+    HexTile: HexTile
+  },
   name: 'HelloWorld',
   props: {
     msg: String
