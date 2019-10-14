@@ -18,11 +18,12 @@ export default {
 
 <style>
 .hexagon {
+  display:inline-block;
   position: relative;
   width: 25px; 
   height: 14.43px;
   background-color: #27ae60;
-  margin: 7.22px 0;
+  margin: 5.22px 0;
   border-left: solid 1px #333333;
   border-right: solid 1px #333333;
 }
@@ -52,5 +53,4 @@ export default {
   border-bottom: solid 1.4142px #333333;
   border-left: solid 1.4142px #333333;
 }
-
 </style>

@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <hex-tile></hex-tile>
-    <hex-tile></hex-tile>
-    <hex-tile></hex-tile>
+    <div id="grid">
+      <div class="row" v-for="i in 5" :key="i">
+        <hex-tile></hex-tile>
+      </div>
+    </div>
   </div>
 </template>
 
